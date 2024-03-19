@@ -1,0 +1,91 @@
+:root{
+    font-family: Roboto Slab;
+    color: #e74c3c;
+}
+.navs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    color: rgb(168, 161, 161);
+    padding: 10px;
+    margin: 5px;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    background: #b83e30;
+    color: #fff;
+}
+.bg-img{
+    background-image: url("../img/hero-image.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.buttonH{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    background-color: #e74c3c;
+}
+
+.buttonH:hover{
+    background-color: #b83e30;
+}
+
+.imgH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+hr{
+    color: #e74c3c;
+    /* height: 10px; */
+}
+section{
+    background-color: rgb(226, 226, 216);
+}
+ .sections{
+    width: 70%;
+} 
+
+h3{
+    color: #e74c3c;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50%;
+    color: white;
+}
+
+section .btn{
+    color: #e74c3c;
+}
+section .btn:hover{
+    background-color: rgb(144, 144, 144);
+}
+
+footer{
+    background-color: #e74c3c;
+    padding-top: 15%;
+    padding-left: 50px;
+}
+

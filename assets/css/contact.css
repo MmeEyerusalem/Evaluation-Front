@@ -1,0 +1,65 @@
+.navs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link{
+    color: rgb(168, 161, 161);
+    padding: 10px;
+    margin: 5px;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    background: #b83e30;
+    color: #fff;
+}
+.bg-img{
+    background-image: url("../img/hero-image.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.buttonH{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    background-color: #e74c3c;
+}
+
+.buttonH:hover{
+    background-color: #b83e30;
+}
+
+.imgH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, hr {
+    color: #e74c3c;
+}
+.btn{
+    background-color: #e74c3c;
+}
+
+/* formulaire*/
+.inputError{
+    color: red;
+}
+.success .form-control{
+    color: green;
+}
+
+
+
+footer{
+    background-color: #e74c3c;
+    padding-top: 15%;
+    padding-left: 50px;
+}
